@@ -8,5 +8,9 @@ server.listen(port)
 console.log('Servidor http rodando na porta', port)
 
 app.get('/', (req, res) => {
-    res.send('Servidor Web Rodando')
+    res.send('Servidor Web Rodando na porta ' + port)
+})
+
+app.get('/teste', (req, res) => {
+    res.send('Estamos em /teste no Servidor Web da porta ' + port)
 })
