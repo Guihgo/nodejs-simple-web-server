@@ -1,0 +1,14 @@
+{
+  "name": "simple-web-server",
+  "version": "1.0.0",
+  "description": "simple web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Guihgo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
